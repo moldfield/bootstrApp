@@ -4,18 +4,15 @@ define([
   'underscore',
   'backbone',
   'text!templates/weights/weights.html',
-  'models/weight',
   'common'
-], function($, _, Backbone, weightsTemplate, Weight, Common){
+], function($, _, Backbone, weightsTemplate, Common){
   'use strict';
 
-  console.log('weights list view ran...');
+  console.log('weights view ran...');
 
   var WeightView = Backbone.View.extend({
 
     tagName: 'li',
-
-    model: Weight,
 
     template: _.template( weightsTemplate ),
 
@@ -26,7 +23,6 @@ define([
     initialize: function () {
       this.listenTo(this.model, 'change', this.render);
       this.listenTo(this.model, 'destroy', this.remove);
-      this.render();
     },
 
     render: function() {

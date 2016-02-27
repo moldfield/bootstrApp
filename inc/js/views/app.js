@@ -21,11 +21,16 @@ define([
 
     initialize: function () {
       this.$weightList = this.$('#weight-list');
-      Weights.add({name: 'matt', weight: 237.99});
+      
+      Weights.add({name: 'Matt Oldfield', weight: 321.34});
+      Weights.add({name: 'Matt Oldfield', weight: 321.34});
+      Weights.add({name: 'Matt Oldfield', weight: 321.34});
+      Weights.add({name: 'Matt Oldfield', weight: 3551.34});
+        
+      //console.log(Weights);
       this.listenTo(Weights, 'all', _.debounce(this.render, 0));
 
       this.addAll();
-      this.$weightList.append('something appended');
       //Weights.fetch({reset:true});
     },
 
@@ -36,17 +41,15 @@ define([
       return this;
     },
 
-    addOne: function () {
-      var view = new WeightView();
-      this.$weightList.append(view.render());
+    addOne: function (weight) {
+      var view = new WeightView({ model: weight });
+      this.$weightList.append(view.render().el);
     },
 
     addAll: function () {
       this.$weightList.empty();
       Weights.each(this.addOne, this);
     }
-
-
 
   });
 

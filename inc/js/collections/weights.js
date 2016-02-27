@@ -12,7 +12,7 @@ define([
     
     model: Weight,
 
-    localStorage: new Store('weights-backbone')
+    //localStorage: new Store('weights-backbone')
   });
   // You don't usually return a collection instantiated
   return new WeightCollection;
