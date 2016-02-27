@@ -1,0 +1,246 @@
+/**
+ * Public CSS
+ * 
+ * mckay red: #de4229
+ */
+.red-bg {
+  background: #de4229 !important;
+  color: #fff !important;
+}
+.white-bg {
+  background: #fff !important;
+}
+.red-text {
+  color: #de4229 !important;
+}
+.count {
+  width: ;
+}
+.text-center {
+  text-align: center;
+}
+.alert {
+  border-width: 3px;
+  padding: 10px 20px;
+  background: #F7F7F7;
+  width: 100%;
+  border-color: #de4229;
+  display: block;
+  border-radius: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+}
+
+.amnt {
+  border-radius: 3px;
+  color: #fff !important;
+  padding: 4px 3px;
+  margin: 0 10px 2px 0;
+  width: 50px;
+  float: right;
+  text-align: center;
+}
+select {
+  padding: 5px 10px;
+  border-radius: 2px;
+  margin: 2px 5px;
+  width: 100%;
+}
+/**
+ * REPORT PAGE
+ *
+ */
+#report-page .table th,
+#report-page .table td {
+  text-align: center !important;
+}
+.table-input {
+  padding: 0 !important;
+}
+.table-input input {
+  width: 100%;
+  border: none;
+  text-indent: 10px;
+  font-size: 20px;
+  height: 41px;
+  text-align: center;
+  background-color: rgba(222,66,41,0.2);
+  
+}
+.table-input input:read-only {
+  background-color: #fff;
+  
+} 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.datepicker-set {
+  background: #fff; 
+  cursor: pointer; 
+  padding: 5px 10px; 
+  border: 1px solid #ccc; 
+  margin-top: 12px; 
+  margin-right: 20px;
+}
+.table-datepicker {
+  padding: 0 !important;
+}
+.table-datepicker .datepicker-set{
+  width: 100% !important;
+  margin: 0 !important;
+  border: none !important;
+  height: 41px !important;
+}
+#report-page .x_content h4 {
+  text-align: center;
+}
+
+/**
+ * Google Ads
+ *
+ *
+ */
+div.ad {
+margin-left: 7px;
+font-family: arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+display: inline-block;
+}
+div.ad input {
+  border: none;
+  width: 275px;
+}
+div.ad div.ad-title {
+color: #12c;
+margin: 0;
+padding: 0;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+}
+div.ad div.ads-url {
+margin: 0;
+}
+.ad-graphic {
+background-color: #edb802;
+border-radius: 2px;
+color: #fff;
+font-size: 13px;
+line-height: 15px;
+margin-right: 3px;
+padding: 0 3px;
+vertical-align: baseline;
+}
+.url {
+color: #006621;
+white-space: nowrap;
+font-size: 13px;
+display: inline-block;
+}
+div.ad div.creative {
+font-size: small;
+margin: 0;
+}
+div.ad div.extension, span.extension {
+font-size: small;
+color: #666;
+margin: 0;
+}
+div.ad div.rating {
+display: inline-block;
+font-size: 13px;
+margin: 0;
+color: #E7711B;
+}
+.gray-star {
+display: inline-block;
+color: #CCC;
+}
+.links {
+font-size: small;
+color: #12c;
+}
+.sitelinks {
+padding-left: 20px;
+width: 600px;
+}
+.sitelinks>li {
+box-sizing: border-box;
+display: inline-block;
+vertical-align: top;
+width: 40%;
+padding-bottom: 15px;
+margin-left: 0;
+}
+.mini-sitelinks {
+padding-left: 20px;
+margin-top: 8px;
+width: 600px;
+}
+.mini-sitelinks>li {
+box-sizing: border-box;
+display: inline-block;
+vertical-align: top;
+width: 40%;
+padding-bottom: 3px;
+font-size: small;
+color: #12c;
+}
+div.ad div.location {
+font-size: small;
+color: #12c;
+margin: 0;
+}
+div.location div.location-icon {
+margin: 0;
+background: url('data:image/png;
+base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAaBAMAAABMRsE0AAAAG1BMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4Gco9AAAACXRSTlMAESIzRFVmd4iHXqUKAAAAhklEQVQYV0XMoQ7CQBQF0WlTqkkQa+vQOGRlJQ5kHWtLAllP2c5nIx4J6o44ucDh/joBtFnrAJxV39Cq6kCvNevM2W1oi2+yDzhaKc7Qu/0ju0CyMln3TXYl6fOqC10cjjRFddvDpLoCSXWBQCPQlCAwBYEUBLog0JQgcPvEkoLA7vKLdgC+RFI4lQxvT3UAAAAASUVORK5CYII=');
+display: inline-block;
+width: .715em;
+height: 1em;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+padding-bottom: 4px;
+vertical-align: middle;
+}
+.creative-with-button {
+width: 330px;
+}
+.call-button {
+background: #F8F8F8;
+font-size: 11px;
+font-weight: 700;
+padding: 0 2px;
+line-height: 31px;
+min-width: 62px;
+display: inline-block;
+text-align: center;
+border: 1px solid #DCDCDC;
+border-radius: 2px;
+float: right;
+}
+.phone {
+background: url('data:image/png;
+base64, iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABKUlEQVQ4jZ2TvWuEQBDF7+/1AxUULawlduYaCztTJQhJMIVNijQRjJ2X4oSrrjmCViFy4ZJs9oVsWMS97LnwRAbmx5u3swtCyIKpbduLruuWfE1Wfz9pmq4URSGWZR2aprmaBcqy7AkQJlVVSV3XNyeBMAoP4WHU2aU0CLlMgSDTNA+ymf18RCCoLMs7aRALeixafz4pbNjXdf1zBFnNuv48zx95UFEUD7NAUBiGOwaiDr+GYQhngdDoOM6ewXzffx03IPwoirb0JEIQ1Pf90jCMDwbzPO+NrQCabdt+R13TNCzttRD0CzvnYVCSJGsGmXoBwpmnYKIXAKdHA0RmrusO/8Go073UjcRxvDkGCoLgRXpPqqq6nRoVEOr8TBrERr2nB82A8GvwDcUFhVnFsUicAAAAAElFTkSuQmCC');
+top: -1px;
+display: inline-block;
+position: relative;
+vertical-align: middle;
+width: 18px;
+height: 18px;
+background-repeat: no-repeat;
+margin: 0 -2px;
+}
+.call-button-text {
+margin-left: 5px;
+margin-right: 2px;
+}

@@ -1,0 +1,5 @@
+# This will run everyday at midninght
+# then is parsed
+# at the file location
+# then the data is discarded after being placed into the database
+0 0 * * * /usr/bin/php /public_html/analytics/wp-content/themes/wp-analytics-app/inc/chron-jobs/update-moz.php > /dev/null 2>&1
